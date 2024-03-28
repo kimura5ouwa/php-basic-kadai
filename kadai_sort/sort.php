@@ -9,8 +9,6 @@
       <?php
       
       function soat_2way($nums, $order){
-        $nums = [15, 4, 18, 23, 10];
-
         if($order){
           echo "昇順にソートします。<br>";
           sort($nums);
