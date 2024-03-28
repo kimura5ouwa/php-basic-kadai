@@ -8,7 +8,7 @@
     <p>
       <?php
       
-      function soat_2way($array, $order){
+      function soat_2way($nums, $order){
         $nums = [15, 4, 18, 23, 10];
 
         if($order){
