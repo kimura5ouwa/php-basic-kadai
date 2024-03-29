@@ -8,18 +8,18 @@
     <p>
       <?php
       
-      function soat_2way($nums, $order){
+      function soat_2way($array, $order){
         if($order){
           echo "昇順にソートします。<br>";
-          sort($nums);
+          sort($array);
           } 
 
           else {
             echo "降順にソートします。<br>";
-            rsort($nums);
+            rsort($array);
         }
 
-        foreach($nums as $num){
+        foreach($array as $num){
           echo $num . '<br>';
         } 
       }
